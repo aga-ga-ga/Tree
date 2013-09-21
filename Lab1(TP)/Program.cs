@@ -12,13 +12,18 @@ namespace Lab1_TP_
         ArrayList allApples = new ArrayList();
         public int alldropedApples = 0;
         public int allStoneInAllDropedApples = 0;
+        public int allFloversInTheTree = 0;
+        Random rand = new Random();
+
         public Tree() { }
         public int Grow()
         {
-            Random rand = new Random();
-            int kolvoOfApple = rand.Next(1, 30);
-            if (allApples.Count + kolvoOfApple > 200)
+            if (allFloversInTheTree > 200)
             {
+                for (int i = 0; i < 201; i++)
+                {
+                    allApples.Add(new Apple(rand.Next(1, 7)));
+                }
                 MessageBox.Show("Tree broken. You plane a new tree", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 foreach (Apple a in allApples)
                 {
@@ -29,12 +34,12 @@ namespace Lab1_TP_
             }
             else
             {
-                for (int i = 0; i < kolvoOfApple; i++)
+                for (int i = 0; i < allFloversInTheTree; i++)
                 {
                     allApples.Add(new Apple(rand.Next(1, 7)));
                 }
             }
-            
+            allFloversInTheTree = 0;
             return allApples.Count;
         }
         public int Shake()
@@ -52,9 +57,12 @@ namespace Lab1_TP_
                 }
                 allApples.RemoveAt(dropApple);
             }
-            if (allApples.Count == 0)
-                MessageBox.Show("Tree had emptied. We waiting for new aple", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
             return allApples.Count;
+        }
+        public int Flover()
+        {
+            allFloversInTheTree += rand.Next(1, 30);
+            return allFloversInTheTree;
         }
     }
 

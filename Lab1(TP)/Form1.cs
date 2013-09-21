@@ -30,6 +30,8 @@ namespace Lab1_TP_
             textBox2.Text += " droped and they have ";
             textBox2.Text += Convert.ToString(oneTree.allStoneInAllDropedApples);
             textBox2.Text += " stones";
+            textBox3.Text = Convert.ToString(oneTree.allFloversInTheTree);
+            textBox3.Text += " flovers on the tree";
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -40,6 +42,21 @@ namespace Lab1_TP_
             textBox2.Text += " droped and they have ";
             textBox2.Text += Convert.ToString(oneTree.allStoneInAllDropedApples);
             textBox2.Text += " stones";
+            textBox3.Text = Convert.ToString(oneTree.allFloversInTheTree);
+            textBox3.Text += " flovers on the tree";
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = Convert.ToString(oneTree.Shake());
+            textBox1.Text += " apples in the tree";
+            textBox2.Text = Convert.ToString(oneTree.alldropedApples);
+            textBox2.Text += " droped and they have ";
+            textBox2.Text += Convert.ToString(oneTree.allStoneInAllDropedApples);
+            textBox2.Text += " stones";
+            oneTree.Flover();
+            textBox3.Text = Convert.ToString(oneTree.allFloversInTheTree);
+            textBox3.Text += " flovers on the tree";
         }
     }
 }

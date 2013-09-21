@@ -10,3 +10,12 @@ c:\users\alexzander\documents\visual studio 2012\Projects\Lab1(TP)\Lab1(TP)\obj\
 C:\Users\Alexzander\Documents\Visual Studio 2012\Projects\Lab1TP\Lab1(TP)\bin\Debug\Lab1(TP).exe.config
 C:\Users\Alexzander\Documents\Visual Studio 2012\Projects\Lab1TP\Lab1(TP)\obj\Debug\Lab1(TP).exe
 C:\Users\Alexzander\Documents\Visual Studio 2012\Projects\Lab1TP\Lab1(TP)\obj\Debug\Lab1(TP).pdb
+C:\Users\Alexzander\Documents\Lab1TP\Lab1(TP)\bin\Debug\Lab1(TP).exe.config
+C:\Users\Alexzander\Documents\Lab1TP\Lab1(TP)\obj\Debug\Lab1(TP).exe
+C:\Users\Alexzander\Documents\Lab1TP\Lab1(TP)\obj\Debug\Lab1(TP).pdb
+C:\Users\Alexzander\Documents\Lab1TP\Lab1(TP)\bin\Debug\Lab1(TP).exe
+C:\Users\Alexzander\Documents\Lab1TP\Lab1(TP)\bin\Debug\Lab1(TP).pdb
+C:\Users\Alexzander\Documents\Lab1TP\Lab1(TP)\obj\Debug\Lab1(TP).csprojResolveAssemblyReference.cache
+C:\Users\Alexzander\Documents\Lab1TP\Lab1(TP)\obj\Debug\Lab1_TP_.Form1.resources
+C:\Users\Alexzander\Documents\Lab1TP\Lab1(TP)\obj\Debug\Lab1_TP_.Properties.Resources.resources
+C:\Users\Alexzander\Documents\Lab1TP\Lab1(TP)\obj\Debug\Lab1(TP).csproj.GenerateResource.Cache
